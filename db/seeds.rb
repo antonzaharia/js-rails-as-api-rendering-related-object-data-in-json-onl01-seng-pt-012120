@@ -5,9 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Bird.delete_all
-Location.delete_all
-Sighting.delete_all
 
 bird_a = Bird.create(name: "Black-Capped Chickadee", species: "Poecile Atricapillus")
 bird_b = Bird.create(name: "Grackle", species: "Quiscalus Quiscula")
